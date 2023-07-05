@@ -1,0 +1,23 @@
+#mapContainer {
+  position: relative;
+  width: 1200px;
+  height: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tooltip {
+  position: absolute;
+  background: #010101;
+  border: 1px solid #d3d3d3;
+  color: #d3d3d3;
+  padding: 10px;
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+#tooltip.visible {
+  opacity: 1;
+}
